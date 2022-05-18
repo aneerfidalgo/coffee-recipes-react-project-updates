@@ -1,12 +1,14 @@
-import { render } from "@testing-library/react";
-import CCoffee from "./components/CCoffee";
+// import CCoffee from "./components/CCoffee";
 import FCoffee from "./components/FCoffee";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
     <>
-      <CCoffee firstName="Aner" />
+      {/*<CCoffee firstName="Aner" />*/}
+      <ContactForm />
       <FCoffee firstName="Aner" />
+      <small />
     </>
   );
 }
